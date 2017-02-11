@@ -62,15 +62,15 @@ my_secondMethod("323","2332","233")
 
 from sys import argv
 import math
+import Math
 
-math.pi
+print(math.pi)
 
-input_file = argv
+def add(arg1, arg2):
+    return arg1 + arg2
 
-def print_all(f):
-    print(f.read())
+print(add(4,6))
+
+Math.Math.myfunction()
 
 
-current_file = open(input_file)
-
-print_all(current_file)
