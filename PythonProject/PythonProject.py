@@ -73,4 +73,9 @@ print(add(4,6))
 
 Math.Math.myfunction()
 
+e = {'x': 1, 'y' :2}
+
+
+
+
 
