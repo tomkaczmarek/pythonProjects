@@ -41,3 +41,36 @@ for x in mylist:
 
 mylist1 = [1,2,"hej"]
 print(mylist1[2])
+
+print("Hello, what its your name?")
+name = input("???")
+age = 1000
+
+print("Hello %s test, Age: %d blbla %s" % (name, age, name))
+
+
+def my_method() :
+    print("my first method in python")
+
+def my_secondMethod(arg1, arg2, arg3):
+    s = arg1 + arg2 + arg3
+    print(s)
+
+my_method()
+my_secondMethod("323","2332","233")
+
+
+from sys import argv
+import math
+
+math.pi
+
+input_file = argv
+
+def print_all(f):
+    print(f.read())
+
+
+current_file = open(input_file)
+
+print_all(current_file)
